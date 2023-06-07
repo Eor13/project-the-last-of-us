@@ -8,12 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 <body>
-    <main class="">
+    <main>
 
         <div class="carrossel">
-            <img class="image" src="./src/images/tlou-1.jpg" alt="Ellie e Joel abraçados">
+            <img class="image ativa" src="./src/images/tlou-1.jpg" alt="Ellie e Joel abraçados">
             <img class="image" src="./src/images/tlou-2.jpg" alt="Personagens The Last of Us">
             <img class="image" src="./src/images/tlou-3.jpg" alt="Joel olhando pela janela">
             <img class="image" src="./src/images/tlou-4.jpg" alt="Ellie e Tess se olhando">
@@ -23,11 +27,11 @@
 
         <section class="conteudo">
             <div class="informacoes">
-                <img src="./src/images/logo.png" alt="logo The Last of Us">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati quia necessitatibus veritatis ex possimus, architecto voluptas, aliquid dolore quas eligendi, ab quod perferendis delectus officiis repudiandae nam velit deserunt?</p>
+                <img src="./src/images/logo.png" alt="logo The Last of Us" class="logo">
+                <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati quia necessitatibus veritatis ex possimus, architecto voluptas, aliquid dolore quas eligendi, ab quod perferendis delectus officiis repudiandae nam velit deserunt?</p>
             </div>
             <div class="botoes-carrossel">
-                <button class="botao"></button>
+                <button class="botao selecionado"></button>
                 <button class="botao"></button>
                 <button class="botao"></button>
                 <button class="botao"></button>
@@ -44,5 +48,6 @@
             </ul>
         </aside>
     </main>
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
